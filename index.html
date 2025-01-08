@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/shared.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -23,7 +24,7 @@
             <nav class="main-navigation">
                 <ul class="main-navigation__items">
                     <li class="main-navigation__item active">
-                        <a href="#">Asosiy</a>
+                        <a href="index.html">Asosiy</a>
                     </li>
                     <li class="main-navigation__item">
                         <a href="#">Men haqimda</a>
@@ -43,6 +44,9 @@
                     <li class="main-navigation__item">
                         <a href="#">Sheriklar</a>
                     </li>
+                    <li class="main-navigation__item">
+                        <a href="contact.html">Bog'lanish</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -51,32 +55,33 @@
     <!-- /Header section-->
 
     <!--Main section-->
-    <div class="container">
-        <section id="main-section" class="main section">
-            <div class="main-section__info">
-                <h4 class="main-section__welcome to-uppercase"> Salom hammaga!</h4>
-                <h1 class="main-section__introduction to-uppercase"> I am Bobur</h1>
-                <h3 class="main-section__position to-uppercase"> Junior dasturchi</h3>
-                <div class="main-section_social-networks">
-                    <a href="t.me/shermatoff.bs">
-                        <i class="fa-brands fa-telegram"></i>
-                    </a>
-                    <a href="https://instagram/shermatoff.bs">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://github.com/Bobur-Sher">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
+    <div class="main-banner">
+        <div class="container">
+            <section id="main-section" class="main section">
+                <div class="main-section__info">
+                    <h4 class="main-section__welcome to-uppercase"> Salom hammaga!</h4>
+                    <h1 class="main-section__introduction to-uppercase"> I am Bobur</h1>
+                    <h3 class="main-section__position to-uppercase"> Junior dasturchi</h3>
+                    <div class="main-section_social-networks">
+                        <a href="t.me/shermatoff.bs">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="https://instagram/shermatoff.bs">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/Bobur-Sher">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                    <button type="button" class="button main-section__action to-uppercase"> Ishlarimni ko'ring</button>
                 </div>
-                <button type="button" class="button main-section__action to-uppercase"> Ishlarimni ko'ring</button>
-            </div>
-            <div class="main-section__image">
-                <img src="images/me-image.png" alt="Me photo">
-            </div>
-        </section>
-        <div class="clearfix"></div>
+                <div class="main-section__image">
+                    <img src="images/me-image.png" alt="Me photo">
+                </div>
+            </section>
+            <div class="clearfix"></div>
+        </div>
     </div>
-
     <!-- /Main section-->
 
     <!--Statistics-->
@@ -297,15 +302,119 @@
     <!-- /Portfolio-->
 
     <!--Blog section-->
-    <section id="blog">
-        <h1>Blog</h1>
-    </section>
+    <div class="container">
+        <section id="blog" class="blog">
+            <div class="section-subtitle">
+                Mening blogim
+                <span class="blur-line"></span>
+            </div>
+            <div class="section-title">
+                Oxirgi maqolalarim
+            </div>
+            <div class="blog-items">
+                <div class="blog-item">
+                    <div class="blog-item__image">
+                        <img src="images/blog-1.png" alt="Blog 1 image">
+                    </div>
+                    <div class="blog-item__info">
+                        <div class="blog-item__main-info">
+                            <span class="blog-item__author">
+                                <i class="fa fa-user"></i>
+                                Admin post
+                            </span>
+                            <span class="blog-item__date">
+                                <i class="fa fa-calendar"></i>
+                                Dec 20, 2023
+                            </span>
+                        </div>
+                        <h5 class="blog-item__title">
+                            Mening maqolam...
+                        </h5>
+                        <p class="blog-item__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint earum quae voluptates
+                        </p>
+                        <a class="blog-item__learn-more">
+                            Batafsil
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__image">
+                        <img src="images/blog-2.png" alt="Blog 2 image">
+                    </div>
+                    <div class="blog-item__info">
+                        <div class="blog-item__main-info">
+                            <span class="blog-item__author">
+                                <i class="fa fa-user"></i>
+                                Admin post
+                            </span>
+                            <span class="blog-item__date">
+                                <i class="fa fa-calendar"></i>
+                                Dec 20, 2023
+                            </span>
+                        </div>
+                        <h5 class="blog-item__title">
+                            Mening maqolam...
+                        </h5>
+                        <p class="blog-item__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint earum quae voluptates
+                        </p>
+                        <a class="blog-item__learn-more">
+                            Batafsil
+                        </a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog-item__image">
+                        <img src="images/blog-3.png" alt="Blog 3 image">
+                    </div>
+                    <div class="blog-item__info">
+                        <div class="blog-item__main-info">
+                            <span class="blog-item__author">
+                                <i class="fa fa-user"></i>
+                                Admin post
+                            </span>
+                            <span class="blog-item__date">
+                                <i class="fa fa-calendar"></i>
+                                Dec 20, 2023
+                            </span>
+                        </div>
+                        <h5 class="blog-item__title">
+                            Mening maqolam...
+                        </h5>
+                        <p class="blog-item__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint earum quae voluptates
+                        </p>
+                        <a class="blog-item__learn-more">
+                            Batafsil
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     <!-- /Blog section-->
 
     <!--Partners section-->
-    <section id="partners">
-        <h1>Sheriklarim</h1>
-    </section>
+    <div class="container">
+        <section id="partners" class="partners">
+            <div class="partner">
+                <img src="images/partner-1.png" alt="partner-1">
+            </div>
+            <div class="partner">
+                <img src="images/partner-2.png" alt="partner-2">
+            </div>
+            <div class="partner">
+                <img src="images/partner-3.png" alt="partner-3">
+            </div>
+            <div class="partner">
+                <img src="images/partner-4.png" alt="partner-4">
+            </div>
+            <div class="partner">
+                <img src="images/partner-5.png" alt="partner-5">
+            </div>
+        </section>
+    </div>
     <!-- /Partners section-->
 
     <!--Footer section-->
